@@ -11,7 +11,6 @@
   <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-
   <div class="w3-container">
   </div>
   <div class="w3-bar-block">
@@ -140,7 +139,7 @@
 
     <h2 id="finalPres">Final Presentation</h2>
     <button type="button" class="collapse" title="Click to view project">Click to view project</button>
-    <div class="descriptions">
+    <div class="opens" id="pres">
     <iframe src="mp4/pres_vid.mp4" width="90%" height="800px" scroll="yes">
     </iframe>
     </div>
@@ -171,6 +170,7 @@ function closeNav() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
 };
+
 
 </script>
 </html>
