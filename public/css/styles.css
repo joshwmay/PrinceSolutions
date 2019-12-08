@@ -4,6 +4,7 @@ h1 {
   align-items: center;
   padding: 2.5px;
   font-size: 45px;
+  padding-top: 75px;
 }
 h2 {
   display: flex;
@@ -29,7 +30,6 @@ a {
   color: white;
   cursor: pointer;
   padding: 18px;
-  margin-left: 26px;
   width: 100%;
   border: none;
   text-align: left;
@@ -44,6 +44,16 @@ a {
   background-color: #ede0bb;
   margin-bottom: 10px;
   justify-content: center;
+  margin-left: 2%;
+}
+
+.opens {
+  display: block;
+  overflow: hidden;
+  background-color: #ede0bb;
+  margin-bottom: 10px;
+  justify-content: center;
+  margin-left: 2%;
 }
 
 p {
@@ -64,8 +74,7 @@ iframe {
   display:flex;
   justify-content: center;
   border: none;
-  margin-bottom: 20px;
-  margin-left: 200px;
+  padding-left: 10%;
 }
 
 #mySidebar {
