@@ -1,0 +1,59 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5px;
+  font-size: 45px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 35px;
+}
+
+
+.collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.descriptions {
+  display: none;
+  overflow: hidden;
+  background-color: #ede0bb;
+  margin-bottom: 10px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+body {
+  background-color: #6DBDC9 ;
+  color: purple;
+}
+
+iframe {
+  display:flex;
+  justify-content: center;
+  padding-left: 60px;
+  border: none;
+}
